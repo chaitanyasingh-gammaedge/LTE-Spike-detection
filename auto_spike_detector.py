@@ -8,10 +8,10 @@ import os
 
 def get_connection():
     return psycopg2.connect(
-        host="localhost",
-        database="lte_db",
-        user="lte_user",
-        password="Ch@it@ny@gammaedge123"
+        host=,
+        database=,
+        user=,
+        password=
     )
 
 def train_model(df):
